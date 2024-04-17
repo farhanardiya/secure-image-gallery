@@ -72,6 +72,7 @@ The frontend uses Nuxt 3 with Vuetify. Ensure that you have installed node. Step
 Install packages
 
 ```
+cd frontend
 npm install
 ```
 
