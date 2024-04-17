@@ -63,7 +63,7 @@ flask run
 
 The application will run on localhost port 5000
 
-You can access the swagget at http://localhost:5000/api/v1/doc
+You can access the swagger at http://localhost:5000/api/v1/doc
 
 ### Frontend
 
