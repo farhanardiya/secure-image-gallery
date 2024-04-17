@@ -17,7 +17,7 @@ The security measures for this project:
 * Username and password complexity requirements
 * Token based identity validation (prevents IDOR)
 * Password hashing using bcrypt
-* Image encryption at rest using SHA-256
+* Image encryption at rest using AES-256
 * Image type validation
   * File name
   * File extension
