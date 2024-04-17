@@ -76,11 +76,11 @@ def validate_image(file):
 
     # Check if file has a filename
     if file.filename == '':
-        return False, 'No selected file'
+        return False, 'No selected file', ''
 
     # Check file extension
     if '.' not in file.filename or file.filename.rsplit('.', 1)[1].lower() not in ALLOWED_EXTENSIONS:
-        return False, 'Invalid file extension'
+        return False, 'Invalid file extension', ''
 
     # Check MIME type
     mime_type = magic.from_buffer(file.read(1024), mime=True)
